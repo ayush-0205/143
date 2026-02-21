@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Someone Special 💜</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="hero">
+    <h1 class="typewriter"></h1>
+    <button onclick="scrollToSection()">Scroll ↓</button>
+</div>
+
+<section class="about">
+    <h2>Why You?</h2>
+    <p>
+        I don’t know when it started… but somewhere between random conversations
+        and those small smiles, you became special.
+    </p>
+</section>
+
+<section class="gallery">
+    <h2>Moments</h2>
+    <div class="images">
+        <img src="https://picsum.photos/300/400?1">
+        <img src="https://picsum.photos/300/400?2">
+        <img src="https://picsum.photos/300/400?3">
+    </div>
+</section>
+
+<section class="final">
+    <button onclick="reveal()">Click for a Surprise 💌</button>
+    <h3 id="secret"></h3>
+</section>
+
+<audio id="bg-music" loop>
+    <source src="your-music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵</button>
+
+<script src="script.js"></script>
+</body>
+</html>
